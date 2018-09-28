@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	margin-top: 5vh;
+	text-align: center;
+	font-family: 'arial'
+}
+section {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	width: 60vh;
+	height: 60vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 3px solid #000;
+}
+div:nth-child(2n) {
+	background-color: #000;
+}
